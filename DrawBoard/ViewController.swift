@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         canvas.frame = CGRect(origin: CGPoint(x:20,y:84),size: CGSize(width:width - 40,height:height - 104))
         canvas.backgroundColor = UIColor.white
         self.view.addSubview(canvas)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
